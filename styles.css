@@ -1,0 +1,123 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3A5259;
+    text-align: center;
+}
+
+h2{
+    font-size: 2.5em;;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0D4757;
+}
+
+.navigation{
+    display: flex;
+    margin: 0 10%;
+    justify-content: space-around;
+    line-height: 10px;
+}
+
+.navigation p{
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.5em;
+}
+.navigation a{
+    color: #61C2DD;
+}
+
+.navigation a:hover{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 3em;
+    color: #61C2DD;
+}
+
+.about-us{
+    display: flex;
+    height: 400px;
+    background-image: url('img/about-us-background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.about-us .content{
+    background-color: #61C2DD;
+    width: 100%;
+    height: 150px;
+    opacity: 0.5;
+    margin-top: 20px;
+    color: #3A5259;
+}
+
+#prices{
+    margin: auto;
+    padding-top: 50px;
+}
+
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item img{
+   width: 400px; 
+}
+
+.item p{
+    background-color: #61C2DD;
+    line-height: 50px;
+    opacity: 0.8;
+}
+
+#office .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#office img{
+    width: 350px;
+}
+
+.team{
+    background-image: url('img/background-team.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.teammate{
+    color: white;
+    flex-basis: 280px;
+    padding: 30px;
+}
+
+.teammate img{
+    width: 200px;
+    height: auto;
+}
+
+.contact{
+    padding: 30px;
+}
+
+.contact a{
+    color: black;
+}
